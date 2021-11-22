@@ -12,6 +12,14 @@
   align-items: center;
 }
 
+.main h1 {
+  margin-bottom: 4rem;
+}
+
+.main h2 {
+  margin: 2rem 0;
+}
+
 .footer {
   display: flex;
   flex: 1;
@@ -51,7 +59,6 @@
 }
 
 .description {
-  margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -71,6 +78,7 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+  margin-top: 2rem;
 }
 
 .card {
@@ -123,4 +131,8 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.table {
+  width: 500px;
 }
