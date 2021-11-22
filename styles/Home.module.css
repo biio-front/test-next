@@ -74,6 +74,8 @@
 }
 
 .card {
+  min-width: 300px;
+  min-height: 120px;
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -101,6 +103,14 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
+}
+
+.form {
+  display: flex;
+}
+
+.form button {
+  width: 150px;
 }
 
 .logo {
