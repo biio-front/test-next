@@ -1194,6 +1194,11 @@ eslint-module-utils@^2.7.1:
     find-up "^2.1.0"
     pkg-dir "^2.0.0"
 
+eslint-plugin-airbnb@^0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-airbnb/-/eslint-plugin-airbnb-0.0.1-security.tgz#c9150fbc5c31ee78f02595edb6079bf591ddb72a"
+  integrity sha512-etPWgqKnv1plcSIt2cHZ/wgH5uQTSzFi4rnvr3YKMWdMzKb8Ca7LHP+F2IODv/J3wuzvkq9mCzwGxEG85KsioQ==
+
 eslint-plugin-import@^2.22.1:
   version "2.25.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.25.3.tgz#a554b5f66e08fb4f6dc99221866e57cfff824766"
@@ -2469,6 +2474,11 @@ prelude-ls@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
+
+prettier@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.4.1.tgz#671e11c89c14a4cfc876ce564106c4a6726c9f5c"
+  integrity sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==
 
 process@0.11.10:
   version "0.11.10"
