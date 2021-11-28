@@ -29,7 +29,9 @@ const Table: NextPage<Props> = ({ tableContents, alias, isError = false }) => {
                 <td>{content.number}</td>
                 <td>{content.name}</td>
                 <td>
-                  <Link href={`/static/${alias}/${content.number}`}>Go to the page</Link>
+                  <Link href={`/static/${alias}/${content.number}`}>
+                    <a>Go to the page</a>
+                  </Link>
                 </td>
               </tr>
             ))}

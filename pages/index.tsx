@@ -22,6 +22,11 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
+          <div className={styles.card}>
+            <h2>🤓</h2>
+            <p>Only allowed in a page</p>
+          </div>
+
           <Link href='/static/props'>
             <a className={styles.card}>
               <h2>getStaticProps</h2>
@@ -32,7 +37,7 @@ const Home: NextPage = () => {
           <Link href='/static/paths'>
             <a className={styles.card}>
               <h2>getStaticPaths</h2>
-              <p>For dynamic routes</p>
+              <p>For static dynamic routes</p>
             </a>
           </Link>
 
@@ -42,10 +47,6 @@ const Home: NextPage = () => {
               <p>For SSR</p>
             </a>
           </Link>
-
-          <div className={styles.card}>
-            <h2>🤓</h2>
-          </div>
         </div>
       </main>
 
