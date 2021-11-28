@@ -14,3 +14,7 @@ export type Pokemon = {
     front_shiny: string;
   };
 };
+
+export type Pokemons = {
+  results: { name: string; url: string }[];
+};

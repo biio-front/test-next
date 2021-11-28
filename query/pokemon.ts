@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useMutation, useQuery, useQueryClient } from 'react-query';
 import { createGetPokemonRequest } from '../api/pokemon';
-import { Pokemon, PokemonRequest, PokemonRequestForInitialData } from '../types/pokemon';
+import { Pokemon, PokemonRequest } from '../types/pokemon';
 import { TestOptions } from '../types/test';
 
 export const useGetPokemon = () => {
